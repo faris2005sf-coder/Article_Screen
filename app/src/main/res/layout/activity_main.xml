@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EC">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/article_learning"
+            android:scaleType="centerCrop"
+            android:contentDescription="Learning image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Power of Learning"
+                android:textColor="#21150F"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Learning is a journey that never ends. It opens new doors, builds
+                confidence, and helps us grow into the best version of ourselves. Every new skill we
+                acquire adds value to our lives and gives us more opportunities in the future."
+                android:textColor="#21150F"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="4dp"
+                android:text="In today’s fast-changing world, continuous learning is more important
+                than ever. It allows us to adapt to new technologies, solve problems creatively,
+                and face challenges with confidence. Whether through books, online courses, or
+                real-life experiences, learning keeps our minds active and prepares us for a brighter
+                 tomorrow."
+                android:textColor="#21150F"
+                android:textSize="18sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="In today’s fast-changing world, continuous learning is more important than ever. It allows us to adapt to new technologies, solve problems creatively, and face challenges with confidence. Whether through books, online courses, or real-life experiences, learning keeps our minds active and prepares us for a brighter tomorrow."
+                        android:textColor="#21150F"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="In today’s fast-changing world, continuous learning is more important than ever. It allows us to adapt to new technologies, solve problems creatively, and face challenges with confidence. Whether through books, online courses, or real-life experiences, learning keeps our minds active and prepares us for a brighter tomorrow."
+                        android:textColor="#21150F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
